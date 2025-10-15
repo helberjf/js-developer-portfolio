@@ -4,7 +4,7 @@
 
 ## 👋 Sobre mim
 
-Sou **Oficial da Marinha do Brasil** e **Desenvolvedor Full Stack**, apaixonado por tecnologia, inteligência artificial e inovação.  
+Sou **Desenvolvedor Full Stack**, apaixonado por tecnologia, inteligência artificial e inovação.  
 Atuo no desenvolvimento de soluções eficientes com foco em **automação, IA e sistemas web modernos**.
 
 📍 **Rio de Janeiro - RJ**  
