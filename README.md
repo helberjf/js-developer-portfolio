@@ -18,10 +18,10 @@ Atuo no desenvolvimento de soluções eficientes com foco em **automação, IA e
 ### 💻 Hard Skills
 | Tecnologias | |
 |--------------|--|
-| ![Node.js](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png) Node.js | ![React](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png) React |
-| ![TypeScript](https://raw.githubusercontent.com/helberjf/js-developer-portfolio/refs/heads/main/data/imgs/typescript.png) TypeScript | ![Python](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png) Python |
-| ![Docker](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/docker.png) Docker | ![MongoDB](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png) MongoDB |
-| ![PostgreSQL](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png) PostgreSQL |  |
+| <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png" alt="Node.js" width="40"> Node.js | <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png" alt="React" width="40"> React |
+| <img src="https://raw.githubusercontent.com/helberjf/js-developer-portfolio/main/data/imgs/typescript.png" alt="TypeScript" width="40"> TypeScript | <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png" alt="Python" width="40"> Python |
+| <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/docker.png" alt="Docker" width="40"> Docker | <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png" alt="MongoDB" width="40"> MongoDB |
+| <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png" alt="PostgreSQL" width="40"> PostgreSQL |  |
 
 ### 🧠 Soft Skills
 Proatividade • Resiliência • Pensamento Crítico • Criatividade • Lealdade • Liderança • Trabalho em Equipe • Flexibilidade • Comunicação
