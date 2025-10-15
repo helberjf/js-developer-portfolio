@@ -45,7 +45,7 @@ Proatividade • Resiliência • Pensamento Crítico • Criatividade • Leald
 | **Projeto Integrador Full Stack** | Aplicação completa com React, Node.js e PostgreSQL. | - |
 | **Pokédex com API** | Curso ministrado na DIO ensinando consumo de API em JavaScript. | [GitHub](https://github.com/helberjf/api-project-pokemonApi) |
 | **Portfólio com JS e CSS** | Curso ministrado na DIO criando página de portfólio responsiva. | [GitHub](https://github.com/RenanJPaula/js-developer-portfolio) |
-| **WhatsApp + Ollama + Docker + n8n** | Integração de automação via IA e orquestração de fluxos. | [GitHub](https://github.com/helberjf/n8n) |
+| **WhatsApp + Ollama + Docker + n8n** | Respondendo conversas no Whatsapp utilizando IA local sem gasto de tokens. | [GitHub](https://github.com/helberjf/n8n) |
 | **Imersão DevOps - Alura GCP** | Projeto com containers Docker e Google Cloud. | [GitHub](https://github.com/helberjf/docker-helber) |
 
 ---
