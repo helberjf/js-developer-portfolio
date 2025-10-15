@@ -1,6 +1,6 @@
 # 💼 Portfólio de Helber Soares Mota
 
-<img src="[[[https://avatars.githubusercontent.com/u/3266640?v=4](https://avatars.githubusercontent.com/u/139668970?v=4)](https://avatars.githubusercontent.com/u/139668970?s=400&u=8055b9b4e61bc2ce4ab5cceb4877b17b69a742e1&v=4)](https://media.licdn.com/dms/image/v2/D4D03AQF5V2BwB28kTg/profile-displayphoto-scale_400_400/B4DZheGUg9GQAk-/0/1753925384469?e=1763596800&v=beta&t=grBsF-uGay5FCOJUMytLj8nn9-CEp2uv0z7OL-WyE60)" width="150" style="border-radius: 50%;" alt="Foto de Helber Soares Mota">
+<img src="https://avatars.githubusercontent.com/u/139668970?v=4)" width="150" style="border-radius: 50%;" alt="Foto de Helber Soares Mota">
 
 ## 👋 Sobre mim
 
