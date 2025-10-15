@@ -19,7 +19,7 @@ Atuo no desenvolvimento de soluções eficientes com foco em **automação, IA e
 | Tecnologias | |
 |--------------|--|
 | ![Node.js](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png) Node.js | ![React](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png) React |
-| ![TypeScript](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/typescript.png) TypeScript | ![Python](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png) Python |
+| ![TypeScript](https://raw.githubusercontent.com/helberjf/js-developer-portfolio/refs/heads/main/data/imgs/typescript.png) TypeScript | ![Python](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png) Python |
 | ![Docker](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/docker.png) Docker | ![MongoDB](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png) MongoDB |
 | ![PostgreSQL](https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png) PostgreSQL |  |
 
