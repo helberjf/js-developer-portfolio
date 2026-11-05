@@ -1,67 +1,53 @@
-# 💼 Portfólio de Helber Soares Mota
+# JavaScript Developer Portfolio
 
-<img src="https://avatars.githubusercontent.com/u/139668970?v=4)" width="150" style="border-radius: 50%;" alt="Foto de Helber Soares Mota">
+A personal portfolio built with **HTML, CSS and plain JavaScript**, based on [Digital Innovation One's portfolio project](https://github.com/digitalinnovationone/js-developer-portfolio). Profile information is loaded from JSON and rendered into expandable sections for skills, languages, projects and experience.
 
-## 👋 Sobre mim
+## Start here
 
-Sou **Desenvolvedor Full Stack**, apaixonado por tecnologia, inteligência artificial e inovação.  
-Atuo no desenvolvimento de soluções eficientes com foco em **automação, IA e sistemas web modernos**.
+For a broader view of my work, visit [my GitHub profile](https://github.com/helberjf). Selected project repositories:
 
-📍 **Rio de Janeiro - RJ**  
-📧 **helberjf@gmail.com**  
-📱 **(32) 99194-9689**
+- [AWS Serverless Orders](https://github.com/helberjf/aws-serverless-orders)
+- [E-commerce Platform Case Study](https://github.com/helberjf/ecommerce-platform-casestudy)
+- [Logs Microservices](https://github.com/helberjf/logs-microservices)
+- [Tutor Professor](https://github.com/helberjf/tutor-professor)
 
----
+This repository demonstrates the portfolio site's rendering and layout. The linked repositories provide their own implementation details and current status.
 
-## 🚀 Tecnologias e Ferramentas
+## Run locally
 
-### 💻 Hard Skills
-| Tecnologias | |
-|--------------|--|
-| <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png" alt="Node.js" width="40"> Node.js | <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png" alt="React" width="40"> React |
-| <img src="https://raw.githubusercontent.com/helberjf/js-developer-portfolio/main/data/imgs/typescript.png" alt="TypeScript" width="40"> TypeScript | <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png" alt="Python" width="40"> Python |
-| <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/docker.png" alt="Docker" width="40"> Docker | <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png" alt="MongoDB" width="40"> MongoDB |
-| <img src="https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png" alt="PostgreSQL" width="40"> PostgreSQL |  |
+Serve the repository with any static web server. For example, with Python installed:
 
-### 🧠 Soft Skills
-Proatividade • Resiliência • Pensamento Crítico • Criatividade • Lealdade • Liderança • Trabalho em Equipe • Flexibilidade • Comunicação
+```bash
+python -m http.server 8000
+```
 
----
+Open `http://localhost:8000`. No package installation or build step is required.
 
-## 🌐 Idiomas
+**Data source:** [api.js](assets/js/api.js) currently fetches `data/profile.json` from this repository's **remote `main` branch on raw.githubusercontent.com**. Editing the local JSON does not change the displayed data until that data is published or the fetch URL is adjusted for local development. Internet access is required with the current configuration.
 
-- 🇧🇷 **Português** (nativo)  
-- 🇬🇧 **Inglês** (avançado)  
-- 🇪🇸 **Espanhol** (intermediário)  
-- 🇫🇷 **Francês** (iniciante)
+## Code tour
 
----
+1. [index.html](index.html) defines the page and section structure.
+2. [profile.json](data/profile.json) stores the profile content and project entries.
+3. [api.js](assets/js/api.js) fetches the JSON; [main.js](assets/js/main.js) maps it into the DOM.
+4. [acordeon.js](assets/js/acordeon.js) toggles the expandable sections.
+5. [CSS files](assets/css) separate the header, skills, projects, experience and other visual sections.
 
-## 💡 Projetos em Destaque
+## Implementation tradeoffs
 
-| Projeto | Descrição | Link |
-|----------|------------|------|
-| **Projeto Final - Pós-graduação FGV** | Sistema de visão computacional para reconhecimento de veículos militares utilizando Python e YOLOv10. | - |
-| **Projeto Integrador Full Stack** | Aplicação completa com React, Node.js e PostgreSQL. | - |
-| **Pokédex com API** | Curso ministrado na DIO ensinando consumo de API em JavaScript. | [GitHub](https://github.com/helberjf/api-project-pokemonApi) |
-| **Portfólio com JS e CSS** | Curso ministrado na DIO criando página de portfólio responsiva. | [GitHub](https://github.com/RenanJPaula/js-developer-portfolio) |
-| **WhatsApp + Ollama + Docker + n8n** | Respondendo conversas no Whatsapp utilizando IA local sem gasto de tokens. | [GitHub](https://github.com/helberjf/n8n) |
-| **Imersão DevOps - Alura GCP** | Projeto com containers Docker e Google Cloud. | [GitHub](https://github.com/helberjf/docker-helber) |
+| Choice | Benefit | Cost or boundary |
+| --- | --- | --- |
+| Separate content into JSON | Profile updates do not require rewriting each HTML section | The current remote URL couples local previews to the published branch and network availability. |
+| Use plain DOM rendering | Keeps deployment simple and avoids a frontend build toolchain | Rendering and error states are managed manually; the current fetch flow does not provide a dedicated failure UI. |
+| Build repeated content with HTML strings | Makes small authored lists concise to render | Content must remain trusted; arbitrary external content would require safe rendering and validation. |
+| Organize information in expandable sections | Keeps a long profile compact | Discoverability and keyboard/screen-reader behavior need deliberate review. |
 
----
+These are observable implementation tradeoffs rather than recorded historical decisions.
 
-## 🧭 Experiência Profissional
+## Verification and next improvements
 
-### ⚓ Oficial da Marinha do Brasil (2011 - 2025)
-- Liderança de equipes multidisciplinares em operações críticas.  
-- Desenvolvimento de estratégias operacionais e gestão de recursos.  
-- Tomada de decisão sob pressão e resolução de problemas complexos.  
-- Coordenação de missões e análise situacional em ambientes de alta responsabilidade.
+There is no automated test suite. A useful manual pass checks JSON loading, all section toggles, mobile layout, image paths and outgoing project links. Next improvements include a local data option, visible loading/error states, safer text rendering and accessibility checks for the expandable controls.
 
----
+## Attribution
 
-## 🛠️ Como rodar o projeto localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/helberjf/js-developer-portfolio
+Based on **Digital Innovation One's `js-developer-portfolio`** learning project. The original portfolio also credits [Renan J. Paula's course repository](https://github.com/RenanJPaula/js-developer-portfolio). This version retains the course structure and DIO visual attribution while using personal portfolio content.
